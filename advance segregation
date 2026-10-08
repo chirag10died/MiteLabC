@@ -1,0 +1,10 @@
+mixed=["rainbow",199,300,"yellow"]
+mixedone=[]
+mixedtwo=[]
+for item in mixed:
+    if isinstance(item,(int,float)):
+        mixedone.append(item)
+    else:
+        mixedtwo.append(item)
+print(mixedone)
+print(mixedtwo)        
